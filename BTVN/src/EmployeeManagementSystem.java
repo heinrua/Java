@@ -63,6 +63,7 @@ public class EmployeeManagementSystem {
         Employee newEmployee = new Employee(id, name, age, department, code, salaryRate);
         employees.add(newEmployee);
         System.out.println("Đã thêm nhân viên mới vào danh sách.");
+        scanner.close();
     }
 
     private static void removeEmployee() {
@@ -83,6 +84,7 @@ public class EmployeeManagementSystem {
         if (!found) {
             System.out.println("Không tìm thấy nhân viên " + nameToRemove + " trong danh sách.");
         }
+        scanner.close();
 
     }
 }
