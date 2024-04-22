@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Scanner;
 
-// Định nghĩa lớp Employee
 class Employee {
     private int id;
     private String name;
